@@ -74,7 +74,7 @@ body {
 .hero-header-style {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
@@ -88,9 +88,6 @@ body {
   letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
-  border-radius: 4px;
-  width: 169px;
-  height: 56px;
 }
 
 .order-service-button:hover,
@@ -102,13 +99,18 @@ body {
 
 /*.our-benefits-list-item {}*/
 
+.our-team-section {
+  background-color: #f4f4fd;
+}
+
 .our-team-header,
 .our-portfolio-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -133,7 +135,9 @@ body {
 
 /*.our-team-list {}*/
 
-/*.our-team-list-item {}*/
+.our-team-list-item {
+  background-color: #fff;
+}
 
 /*.our-portfolio-list {}*/
 
@@ -145,5 +149,13 @@ body {
 }
 
 .footer-logo .logo-second-word {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
